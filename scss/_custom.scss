@@ -1,0 +1,420 @@
+/* Custom styles */
+
+
+.menu-social li{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 3em;
+
+}
+
+
+.menu-icon{
+    width: rem-calc(40);
+    height: rem-calc(60);
+    margin-top: rem-calc(25);
+}
+
+.promo-video{
+    position: relative;
+    #overlay{
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 745px;
+        width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#29669e+0,2a3b5a+100&0.7+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(41,102,158,0.7) 0%, rgba(42,59,90,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(41,102,158,0.7) 0%,rgba(42,59,90,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(41,102,158,0.7) 0%,rgba(42,59,90,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b329669e', endColorstr='#b32a3b5a',GradientType=0 ); /* IE6-9 */
+    }
+    
+    .header-content{
+        background-color: transparent;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+    
+    .headliner{
+        left:0;
+        top:50%;
+        position: absolute;
+      
+        width: 100%;
+        h1{
+        border-top: solid 2px white;
+            border-bottom: solid 2px white;
+          color: white;
+            text-transform: uppercase;
+        }
+ 
+    }
+    
+}
+.about-us{
+    img{
+        width: 100%;
+    }
+    position: relative;
+    #overlay{
+        position: absolute;
+        top:0;
+       
+      height: 100%;
+        width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#29669e+0,2a3b5a+100&0.7+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(41,102,158,0.7) 0%, rgba(42,59,90,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(41,102,158,0.7) 0%,rgba(42,59,90,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(41,102,158,0.7) 0%,rgba(42,59,90,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b329669e', endColorstr='#b32a3b5a',GradientType=0 ); /* IE6-9 */
+    }
+    
+    .header-content{
+        background-color: transparent;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+    
+    .headliner{
+        left:0;
+        top:50%;
+        position: absolute;
+      
+        width: 100%;
+        h1{
+        border-top: solid 2px white;
+            border-bottom: solid 2px white;
+          color: white;
+            text-transform: uppercase;
+        }
+ 
+    }
+    
+}
+.separator-image{
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include breakpoint(medium){
+        height: 350px;
+    }
+    @include breakpoint(large){
+        height: 350px;
+    }
+}
+
+.pool-image{
+    background-image: url(../images/separators/small/separator01-image.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/separators/medium/separator01-image.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/separators/large/separator01-image.jpg);
+    }
+}
+.bar-image{
+    background-image: url(../images/separators/small/separator02-image.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/separators/medium/separator02-image.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/separators/large/separator02-image.jpg);
+    }
+}
+.rooms-image{
+    background-image: url(../images/separators/small/separator03-image.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/separators/medium/separator03-image.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/separators/large/separator03-image.jpg);
+    }
+}
+
+
+//////////////////Rooms 1-6 image separators//////////////////
+.room1-image{
+    background-image: url(../images/featured/room01.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/featured/room01.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/featured/room01.jpg);
+    }
+}.room2{
+    background-image: url(../images/featured/room02.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/featured/room02.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/featured/room02.jpg);
+    }
+}.room3{
+    background-image: url(../images/featured/room03.jpg);
+    @include breakpoint(medium){
+        background-image: url(../images/featured/room03.jpg);
+    }    
+    @include breakpoint(large){
+        background-image: url(../images/featured/room03.jpg);
+    }
+}
+
+
+h2{
+    color:#1772ac;
+    font-size:rem-calc(42);
+    margin: rem-calc(20 0);
+}
+
+div.off-canvas{
+    height: 100%;
+    a h3{color: $white;}
+    .is-drilldown-submenu{background-color:darken($primary-color, 20);}
+}
+
+.bluebg{
+    background-color: #4472a9;
+}
+
+footer{
+    .menu{
+        
+        a{
+            color:$white;
+        }
+    }
+    
+    .contact-information{
+        li{
+            position: relative;
+            height: 100%;
+            padding-left:60px;
+            padding-top: 35px;
+            color:$white;
+        }
+        i{
+             font-size: rem-calc(60);
+            position: absolute;
+            top: 0; left:0;
+                        
+        }
+    }
+    
+    .social{
+        i{
+           font-size: rem-calc(60);
+        }
+    }
+    p.copyright{
+        background-color: darken(#4472a9, 10);
+        margin: 0;
+        padding: rem-calc(20 0);
+        color:$white;
+    }
+    .about-us{
+        color:$white;
+    }
+ 
+}
+
+
+.button{
+        @include button-style($primary-color, darken($secondary-color, 10)$white);
+    }
+/////////////////Sections main content////////////////////
+section.main-content{
+    padding: rem-calc(30);
+   
+    div.room-image{
+        position: relative;
+        
+        .room-title{
+          
+            bottom:0;
+            left:0;
+            padding-left: rem-calc(20);
+            
+ 
+            h3{
+                color: $white;
+            }//ends h3
+        }//ends room title
+    }//ends room-image
+    
+    div.room-content{
+        background-color: $white;
+        padding:rem-calc(20);
+        
+        
+    }
+    
+}//ends section main content
+section.about-content{
+ padding: 50px;
+    height: 50%;
+    #aboutusimg{
+        padding-left:50px;
+   
+    }
+            h3{
+                color: $white;
+    }
+}//ends about content
+
+section.room-content{
+ padding: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+
+    img{
+        background-color:black;
+    }
+            h3{
+                color: $white;
+    }
+    .roomP{
+        background-color: $white;
+        padding: 20px;
+    }
+    .roomh2{
+        color: $white;
+      margin: rem-calc(0 0);
+        padding-left: 10px;
+        font-weight: bolder;
+        font-size: 35px;
+        margin-top: -60px;
+        
+       
+    }
+}//ends room content
+
+
+section.contact-content{
+  background-color: lightgray;
+    form{
+        padding: 100px;
+
+    }
+}
+
+section.rooms-content{
+ padding-bottom: 80px;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+ 
+}//ends rooms content
+   section.gallery{
+    padding-bottom: 20px;
+       background-color:#4472a9;
+    }//ends section gallery
+
+section.service-content{
+padding: 50px;
+    height: 100%;
+    width: 100%;
+
+            h3{
+                color: $white;
+    }
+   
+    .right{
+  float: right;
+     
+        
+    }
+    .left{
+      float: left;
+        
+    }
+    .tLeft{
+        margin-left: 50%;
+        text-align: right;
+    } 
+    h2{
+        font-weight: bold;
+    }
+    p{
+        width:50%;
+    }
+    img{
+        width: 47%;
+        padding-bottom: 40px;
+    }
+}//ends service content
+
+section.bottom{
+    padding-bottom: 10%;
+}
+
+
+
+#gallery{
+background-color: #4472a9;
+    h2{
+        color: white;
+    }
+}
+
+
+    
+    @media screen and (max-width: 930px){
+    section.service-content{
+        p{
+        width:100%;
+            
+    }
+      p.tLeft{
+        margin-left: 0;
+        text-align:inherit;
+          
+    }
+        h2.tLeft, h2{
+            margin-left: 0;
+            text-align: center;
+        }
+       img{
+        width: 100%;
+    }   
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .room-paragraph {
+        width: 100%;
+    }
+    .room-content img {
+        width: 100%;
+    }
+}
+
+
+.booknow{
+   background-color: $white;
+
+    
+}
+
+.menuRoom{
+    text-align: center;
+    
+    li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px;
+        font-size: 22px;
+        
+    }
+}
+label{
+    padding-left: 40px;
+    background-color: #d6d6d6;
+}
